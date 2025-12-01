@@ -1,38 +1,58 @@
-# 📈 Time Series & Statistical Analysis Compilation
+# 📈 Stochastic Signal Analysis & Time Series Modeling
 
-> **Statistical Modeling, Bayesian Inference, and Signal Processing studies.**
+<div align="center">
 
-This repository serves as a compilation of practical tasks and studies focused on the mathematical foundations of Time Series Analysis and Statistical Learning. The notebooks explore fundamental concepts required for quantitative modeling, such as curve fitting, hypothesis testing via Bayesian frameworks, and the analysis of stochastic signals.
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Statistics](https://img.shields.io/badge/Stat-Bayesian_Inference-orange?style=for-the-badge)
+![Math](https://img.shields.io/badge/Math-Stochastic_Processes-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Research-lightgrey?style=for-the-badge)
 
----
+</div>
 
-## 📚 Repository Contents
+> **Explorando a matemática por trás da modelagem de dados ruidosos, inferência probabilística e decomposição de sinais.**
 
-### 1. Polynomial Regression & Trend Estimation
-* **File:** `Task 1 - Polynomial_Regression.ipynb`
-* **Concepts:** Non-linear curve fitting, Ordinary Least Squares (OLS), overfitting vs. underfitting (Bias-Variance trade-off).
-* **Objective:** Modeling complex trends in time-series data using polynomial expansion and evaluating model complexity.
-
-### 2. Bayesian Hypothesis Testing
-* **File:** `Task 2 - Best_Hypothesis_with_Bayes.ipynb`
-* **Concepts:** Bayesian Inference, Posterior Probability computation, Maximum A Posteriori (MAP) estimation.
-* **Objective:** Selecting the "Best Hypothesis" (model) given a dataset by applying Bayes' Theorem to update prior beliefs based on observed likelihoods.
-
-### 3. Stochastic Signal Processing
-* **File:** `Task_3 - Stochastic_Signal_Analysis.ipynb`
-* **Concepts:** Stochastic processes, noise analysis, statistical properties of signals (mean, variance, stationarity).
-* **Objective:** Analyzing the behavior of random signals to understand underlying generating processes and signal-to-noise characteristics.
+Este repositório reúne implementações focadas nos fundamentos estatísticos necessários para **Análise Quantitativa** e **Processamento de Sinais**. O objetivo não é apenas aplicar bibliotecas, mas investigar o comportamento matemático de modelos em cenários de incerteza.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🔬 Módulos de Estudo
 
-* **Python:** Core logic and implementation.
-* **NumPy:** Numerical computing and vectorized operations.
-* **Matplotlib/Seaborn:** Visualization of signals and regression curves.
-* **Pandas:** Data structuring and time-series manipulation.
+### 1. Bayesian Hypothesis Selection
+* **O Conceito:** Aplicação do Teorema de Bayes para selecionar a melhor hipótese dado um conjunto de dados ruidosos ($d$).
+* **Aplicação em Finanças:** Fundamental para **Regime Switching** (detectar se o mercado mudou de tendência) e atualização de probabilidades em tempo real.
+* **Técnica:** Cálculo da probabilidade *a posteriori* $P(h|d)$ baseada na verossimilhança.
+
+### 2. Stochastic Signal Analysis
+* **O Conceito:** Análise de sinais aleatórios, focando em propriedades estatísticas como média, variância e autocorrelação.
+* **Aplicação em Finanças:** Modelagem de preços de ativos (Random Walks), análise de volatilidade e filtragem de ruído em séries temporais financeiras.
+
+### 3. Polynomial Regression & Overfitting
+* **O Conceito:** Estudo do impacto da complexidade do modelo (grau do polinômio) no erro de generalização.
+* **Aplicação em Finanças:** Entendimento visual do **Bias-Variance Tradeoff**. Mostra os perigos de "curve fitting" em backtests (ajustar demais o modelo aos dados passados).
 
 ---
 
-## 🧠 Why this matters for Quant Research?
-Understanding the properties of stochastic signals and how to robustly fit models (without overfitting) is the bedrock of financial engineering. Furthermore, Bayesian methods provide a rigorous framework for decision-making under uncertainty, a critical skill for systematic trading.
+## 📊 Visualizações Chave
+
+*(Espaço reservado: Adicione aqui 1 gráfico do notebook de Bayes mostrando as probabilidades mudando e 1 gráfico do notebook de Polinômios mostrando o ajuste da curva)*
+
+---
+
+## 🛠️ Tech Stack
+* **Core:** `NumPy`, `SciPy`
+* **Visualization:** `Matplotlib`
+* **Methodology:** Inferência Estatística, Cálculo Numérico.
+
+## 🚀 Como Rodar
+```bash
+git clone [https://github.com/cockles98/stochastic-signal-analysis.git](https://github.com/cockles98/stochastic-signal-analysis.git)
+cd stochastic-signal-analysis
+pip install numpy matplotlib scipy jupyter
+jupyter notebook
+```
+
+-----
+
+\<div align="center"\>
+\<p\>Estudos desenvolvidos focando em modelagem matemática rigorosa.\</p\>
+\</div\>
