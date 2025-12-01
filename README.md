@@ -54,5 +54,7 @@ jupyter notebook
 -----
 
 \<div align="center"\>
+
 \<p\>Estudos desenvolvidos focando em modelagem matemática rigorosa.\</p\>
+
 \</div\>
