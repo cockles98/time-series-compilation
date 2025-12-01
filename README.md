@@ -61,7 +61,7 @@ Análise visual de uma série temporal gerada por processos aleatórios. Este ti
 
 ## 🚀 Como Rodar
 ```bash
-git clone [https://github.com/cockles98/stochastic-signal-analysis.git](https://github.com/cockles98/stochastic-signal-analysis.git)
+git clone https://github.com/cockles98/stochastic-signal-analysis.git
 cd stochastic-signal-analysis
 pip install numpy matplotlib scipy jupyter
 jupyter notebook
