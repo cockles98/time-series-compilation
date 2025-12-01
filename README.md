@@ -32,9 +32,25 @@ Este repositório reúne implementações focadas nos fundamentos estatísticos 
 
 ---
 
-## 📊 Visualizações Chave
+## 📊 Visualizações & Análise
 
-*(Espaço reservado: Adicione aqui 1 gráfico do notebook de Bayes mostrando as probabilidades mudando e 1 gráfico do notebook de Polinômios mostrando o ajuste da curva)*
+### 1. Modelagem de Dados (Signal vs. Noise)
+Ajuste de regressão polinomial sobre dados ruidosos. O desafio aqui é encontrar o equilíbrio entre capturar a tendência do sinal sem incorporar o ruído aleatório (evitando *overfitting*).
+
+<div align="center">
+  <img src="assets/polynomial_fit.png" alt="Polynomial Regression Fit" width="600"/>
+  <p><i>Ajuste de modelo polinomial sobre amostra estocástica.</i></p>
+</div>
+
+### 2. Inferência Bayesiana (Conceito)
+Para o módulo de Hipóteses Bayesianas, a análise é puramente probabilística. O algoritmo calcula a probabilidade *a posteriori* $P(h|D)$ de cada hipótese, atualizando a crença do modelo a cada novo dado observado, sem necessidade de re-treinamento total.
+
+### 3. Processamento de Sinais Estocásticos
+Análise visual de uma série temporal gerada por processos aleatórios. Este tipo de visualização é análogo ao estudo de retornos de ativos financeiros e análise de volatilidade.
+
+<div align="center">
+  <img src="assets/stochastic_signal.png" alt="Stochastic Signal Waveform" width="600"/>
+</div>
 
 ---
 
