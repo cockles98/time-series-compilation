@@ -17,18 +17,18 @@ Este repositório reúne implementações focadas nos fundamentos estatísticos 
 
 ## 🔬 Módulos de Estudo
 
-### 1. Bayesian Hypothesis Selection
+### 1. Polynomial Regression & Overfitting
+* **O Conceito:** Estudo do impacto da complexidade do modelo (grau do polinômio) no erro de generalização.
+* **Aplicação em Finanças:** Entendimento visual do **Bias-Variance Tradeoff**. Mostra os perigos de "curve fitting" em backtests (ajustar demais o modelo aos dados passados).
+  
+### 2. Bayesian Hypothesis Selection
 * **O Conceito:** Aplicação do Teorema de Bayes para selecionar a melhor hipótese dado um conjunto de dados ruidosos ($d$).
 * **Aplicação em Finanças:** Fundamental para **Regime Switching** (detectar se o mercado mudou de tendência) e atualização de probabilidades em tempo real.
 * **Técnica:** Cálculo da probabilidade *a posteriori* $P(h|d)$ baseada na verossimilhança.
 
-### 2. Stochastic Signal Analysis
+### 3. Stochastic Signal Analysis
 * **O Conceito:** Análise de sinais aleatórios, focando em propriedades estatísticas como média, variância e autocorrelação.
 * **Aplicação em Finanças:** Modelagem de preços de ativos (Random Walks), análise de volatilidade e filtragem de ruído em séries temporais financeiras.
-
-### 3. Polynomial Regression & Overfitting
-* **O Conceito:** Estudo do impacto da complexidade do modelo (grau do polinômio) no erro de generalização.
-* **Aplicação em Finanças:** Entendimento visual do **Bias-Variance Tradeoff**. Mostra os perigos de "curve fitting" em backtests (ajustar demais o modelo aos dados passados).
 
 ---
 
@@ -66,11 +66,3 @@ cd stochastic-signal-analysis
 pip install numpy matplotlib scipy jupyter
 jupyter notebook
 ```
-
------
-
-<div align="center"\>
-<p\>
-Estudos desenvolvidos focando em modelagem matemática rigorosa.
-</p\>
-</div\>
